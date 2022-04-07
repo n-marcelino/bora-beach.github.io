@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;900&family=Poppins:wght@500&display=swap');
+
+#body {
+    padding: 3rem 7rem;
+}
+
+h2 {
+    font-family:'PT Serif';
+    line-height: 1.1;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 3.279rem;
+}
+
+p {
+    font-family: 'Darker Grotedque', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.1rem;
+}
+
+
+.golden-buttons {
+    background: #dd9d4c;
+    font-family: 'Poppins';
+}
+
+/*---------LANDING SECTION---------*/
+
+#landing {
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#landing h1 {
+    font-family:'PT Serif';
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    line-height:1.08;
+}
+
+#landing > div {
+    padding-bottom: 8rem;
+}
+
+#landing > div > div {
+    height:15rem;
+}
+
+/*---------FOOTER SECTION---------*/
+footer > div > div > a {
+    font-family: 'Neue Machina Ultrabold';
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    line-height:1.08;
+}
+
+footer > div > div > ul > li > a {
+    margin: 0;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-logo:hover > i, footer > div > div > ul > li > a:hover {
+    color: #f1b86c;
+}
+

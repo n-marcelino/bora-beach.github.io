@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;900&family=Poppins:wght@500&display=swap');
+
+@font-face {
+    font-family: 'Neue Machina Ultrabold';
+    src: url(fonts/Net-NeueMachina-Ultrabold.ttf)
+}
+
+#landing {
+    background-color: rgba(84, 84, 84, 0.5);
+    background-blend-mode: multiply;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#body {
+    padding: 3rem 13rem;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+#package-list {    
+    font-family: 'Darker Grotedque', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.package-list-li {
+    display:flex;
+    gap: 1rem;
+    align-items:center;
+   
+}
+
+.package-list-bullet {
+    display:inline;
+    color: #5d5491;
+}
+
+/* ATTRACTIONS */
+
+#attractions-slide {
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#attractions-prev > i, #attractions-next > i {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    font-size: 2rem;
+}
+
+#attractions-prev:focus, #attractions-next:focus, 
+#attractions-prev:active, #attractions-next:active,
+#itinerary-next:active, #itinerary-next:focus {
+    outline:none !important;
+    box-shadow: none;
+}
+
+#attractions-prev:hover > i, 
+#attractions-next:hover > i {
+    color:#f1b86c;
+}
+
+/* ITINERARY */
+
+#itinerary-next:hover > i {
+    color: #aa8ed6;
+}
+
+#itinerary-heading{
+    font-family: 'Darker Grotedque', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+
+#itinerary-heading > h3  {
+    font-family:'Neue Machina Ultrabold';
+}

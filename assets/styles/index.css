@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;900&family=Poppins:wght@500&display=swap');
+#body > section {
+    padding: 5rem 0; 
+}
+
+#index-section1 {
+    gap:5rem;
+}
+
+#index-section1 > div {
+    flex-basis:0;
+}
+
+#index-section1 > div:nth-child(1) {
+    flex-grow:1;
+}
+
+#index-section1 > div:nth-child(2) {
+    flex-grow:1.2;
+}
+
+/* SECTION 2 */
+
+section:nth-child(2) > div > div {
+    font-family:'Darker Grotesque', sans-serif;    
+}
+
+section:nth-child(2) > div > div > h3 {
+    font-weight: 700;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+section:nth-child(2) > div > div > h4 {
+    font-weight: 500;
+
+    border-style:solid;
+    border-width:3px;
+    border-color:rgba(84, 84, 84, 0.5);
+
+    padding: 0.3rem 1.3rem 0.8rem 1.3rem;
+
+    /* sizing the border box around the price */
+}
+
+section:nth-child(2) > div > div > h4 > span {
+    font-weight: 600;
+}
